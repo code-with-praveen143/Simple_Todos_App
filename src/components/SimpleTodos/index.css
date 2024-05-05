@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  background-size: cover;
+  border-color: #ff8542;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.simple-todo-container {
+  background-color: #ffffff;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border-radius: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .simple-todo-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+  }
+}
+.title {
+  color: #ff8542;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
